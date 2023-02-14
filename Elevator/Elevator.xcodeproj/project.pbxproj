@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		634C6D4E299BC82A00B4016A /* DispatcherView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 634C6D4D299BC82A00B4016A /* DispatcherView.xib */; };
 		63A6330D299BB2240084BB16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6330C299BB2240084BB16 /* AppDelegate.swift */; };
 		63A6330F299BB2240084BB16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6330E299BB2240084BB16 /* SceneDelegate.swift */; };
 		63A63311299BB2240084BB16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A63310299BB2240084BB16 /* ViewController.swift */; };
 		63A63314299BB2240084BB16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A63312299BB2240084BB16 /* Main.storyboard */; };
 		63A63316299BB2260084BB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A63315299BB2260084BB16 /* Assets.xcassets */; };
 		63A63319299BB2260084BB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A63317299BB2260084BB16 /* LaunchScreen.storyboard */; };
+		63A63323299BB4390084BB16 /* DispatcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A63322299BB4390084BB16 /* DispatcherView.swift */; };
+		63A63325299BB5C70084BB16 /* CabinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A63324299BB5C70084BB16 /* CabinView.xib */; };
+		63A63327299BB7320084BB16 /* CabinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A63326299BB7320084BB16 /* CabinView.swift */; };
+		63A63329299BB7900084BB16 /* FloorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A63328299BB7900084BB16 /* FloorView.xib */; };
+		63A6332C299BBA9C0084BB16 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6332B299BBA9C0084BB16 /* UIView+Extension.swift */; };
+		63A6332E299BBBC30084BB16 /* FloorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6332D299BBBC30084BB16 /* FloorView.swift */; };
+		63A63330299BBC2F0084BB16 /* ElevatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A6332F299BBC2F0084BB16 /* ElevatorLogic.swift */; };
+		63A63332299BBFBF0084BB16 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A63331299BBFBF0084BB16 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		634C6D4D299BC82A00B4016A /* DispatcherView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DispatcherView.xib; sourceTree = "<group>"; };
 		63A63309299BB2240084BB16 /* Elevator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elevator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A6330C299BB2240084BB16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A6330E299BB2240084BB16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		63A63315299BB2260084BB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A63318299BB2260084BB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A6331A299BB2260084BB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A63322299BB4390084BB16 /* DispatcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatcherView.swift; sourceTree = "<group>"; };
+		63A63324299BB5C70084BB16 /* CabinView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CabinView.xib; sourceTree = "<group>"; };
+		63A63326299BB7320084BB16 /* CabinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabinView.swift; sourceTree = "<group>"; };
+		63A63328299BB7900084BB16 /* FloorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FloorView.xib; sourceTree = "<group>"; };
+		63A6332B299BBA9C0084BB16 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		63A6332D299BBBC30084BB16 /* FloorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorView.swift; sourceTree = "<group>"; };
+		63A6332F299BBC2F0084BB16 /* ElevatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorLogic.swift; sourceTree = "<group>"; };
+		63A63331299BBFBF0084BB16 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		634C6D4F299BC83100B4016A /* Floor */ = {
+			isa = PBXGroup;
+			children = (
+				63A63328299BB7900084BB16 /* FloorView.xib */,
+				63A6332D299BBBC30084BB16 /* FloorView.swift */,
+			);
+			path = Floor;
+			sourceTree = "<group>";
+		};
 		63A63300299BB2240084BB16 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +83,55 @@
 		63A6330B299BB2240084BB16 /* Elevator */ = {
 			isa = PBXGroup;
 			children = (
-				63A6330C299BB2240084BB16 /* AppDelegate.swift */,
-				63A6330E299BB2240084BB16 /* SceneDelegate.swift */,
+				63A6332A299BBA7D0084BB16 /* Helpers */,
+				63A63333299BC0F30084BB16 /* Views */,
+				63A6332F299BBC2F0084BB16 /* ElevatorLogic.swift */,
 				63A63310299BB2240084BB16 /* ViewController.swift */,
 				63A63312299BB2240084BB16 /* Main.storyboard */,
+				63A6330C299BB2240084BB16 /* AppDelegate.swift */,
+				63A6330E299BB2240084BB16 /* SceneDelegate.swift */,
 				63A63315299BB2260084BB16 /* Assets.xcassets */,
 				63A63317299BB2260084BB16 /* LaunchScreen.storyboard */,
 				63A6331A299BB2260084BB16 /* Info.plist */,
 			);
 			path = Elevator;
+			sourceTree = "<group>";
+		};
+		63A6332A299BBA7D0084BB16 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				63A6332B299BBA9C0084BB16 /* UIView+Extension.swift */,
+				63A63331299BBFBF0084BB16 /* CircleButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		63A63333299BC0F30084BB16 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				634C6D4F299BC83100B4016A /* Floor */,
+				63A63335299BC7D50084BB16 /* Dispatcher */,
+				63A63334299BC0FE0084BB16 /* Cabin */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63A63334299BC0FE0084BB16 /* Cabin */ = {
+			isa = PBXGroup;
+			children = (
+				63A63324299BB5C70084BB16 /* CabinView.xib */,
+				63A63326299BB7320084BB16 /* CabinView.swift */,
+			);
+			path = Cabin;
+			sourceTree = "<group>";
+		};
+		63A63335299BC7D50084BB16 /* Dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				634C6D4D299BC82A00B4016A /* DispatcherView.xib */,
+				63A63322299BB4390084BB16 /* DispatcherView.swift */,
+			);
+			path = Dispatcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +193,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A63319299BB2260084BB16 /* LaunchScreen.storyboard in Resources */,
+				63A63325299BB5C70084BB16 /* CabinView.xib in Resources */,
+				63A63329299BB7900084BB16 /* FloorView.xib in Resources */,
+				634C6D4E299BC82A00B4016A /* DispatcherView.xib in Resources */,
 				63A63316299BB2260084BB16 /* Assets.xcassets in Resources */,
 				63A63314299BB2240084BB16 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A6332C299BBA9C0084BB16 /* UIView+Extension.swift in Sources */,
 				63A63311299BB2240084BB16 /* ViewController.swift in Sources */,
+				63A63323299BB4390084BB16 /* DispatcherView.swift in Sources */,
+				63A63332299BBFBF0084BB16 /* CircleButton.swift in Sources */,
 				63A6330D299BB2240084BB16 /* AppDelegate.swift in Sources */,
 				63A6330F299BB2240084BB16 /* SceneDelegate.swift in Sources */,
+				63A6332E299BBBC30084BB16 /* FloorView.swift in Sources */,
+				63A63330299BBC2F0084BB16 /* ElevatorLogic.swift in Sources */,
+				63A63327299BB7320084BB16 /* CabinView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +377,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.swiftui.Elevator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -328,9 +407,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.swiftui.Elevator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
